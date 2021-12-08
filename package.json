@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run" : "node ./src/dist/main.js"
   },
+  "bin" : {
+    "pcinfo": "./src/dist/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rxann/pcinfo.git"
