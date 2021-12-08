@@ -1,0 +1,28 @@
+{
+  "name": "pcinfo",
+  "version": "1.0.0",
+  "description": "A CLI tool to give you real-time PC stats!",
+  "main": "./src/dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run" : "node ./src/dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rxann/pcinfo.git"
+  },
+  "author": "Rxan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rxann/pcinfo/issues"
+  },
+  "homepage": "https://github.com/Rxann/pcinfo#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
+}
