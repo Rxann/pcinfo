@@ -1,14 +1,14 @@
 {
-  "name": "@rxan/pcinfo",
-  "version": "1.0.1",
+  "name": "realtimepc",
+  "version": "1.0.6",
   "description": "A CLI tool to give you real-time PC stats!",
   "main": "./src/dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run" : "node ./src/dist/main.js"
+    "run": "node ./src/dist/main.js"
   },
-  "bin" : {
-    "pcinfo": "node ./src/dist/main.js"
+  "bin": {
+    "realtimepc": "./main-win.exe"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/node": "^16.11.12",
     "nodemon": "^2.0.15",
+    "pkg": "^5.5.1",
     "typescript": "^4.5.2"
   },
   "dependencies": {

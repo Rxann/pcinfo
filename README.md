@@ -4,8 +4,8 @@ A CLI tool to give you real-time PC stats!
 
 ## Usage
 
-Run the command: `npm install -g @rxan/pcinfo`
-Run the command: `pcinfo` or `npx pcinfo`
+Run the command: `npm install -g realtimepc`
+Run the command: `realtimepc` or `npx realtimepc`
 
 ## Bugs or Reports
 
