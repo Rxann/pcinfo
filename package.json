@@ -1,6 +1,6 @@
 {
-  "name": "pcinfo",
-  "version": "1.0.0",
+  "name": "@rxan/pcinfo",
+  "version": "1.0.1",
   "description": "A CLI tool to give you real-time PC stats!",
   "main": "./src/dist/main.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "run" : "node ./src/dist/main.js"
   },
   "bin" : {
-    "pcinfo": "./src/dist/main.js"
+    "pcinfo": "node ./src/dist/main.js"
   },
   "repository": {
     "type": "git",

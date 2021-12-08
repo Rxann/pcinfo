@@ -1,4 +1,5 @@
-import chalk from 'chalk'
+
+const chalk = require('chalk')
 const os = require('os')
 function main() {
     const rn = new Date().getHours()
