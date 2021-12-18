@@ -5,7 +5,7 @@ function main() {
     const rn = new Date().getHours();
     console.log(chalk.bold('PC Stats 💻'));
     console.log(chalk.bold(`Architecture  🖱️  -  ${os.arch()}`));
-    console.log(chalk.bold(`CPU ⌨️  -  ${os.cpus().length}`));
+    console.log(chalk.bold(`CPUS ⌨️  -  ${os.cpus().length}`));
     console.log(chalk.bold(`Free Memory 💾  -  ${os.freemem()} bytes`));
     console.log(chalk.bold(`Total Memory 💾  -  ${os.totalmem()} bytes`));
     console.log(chalk.bold(`Hostname 📡  -  ${os.hostname()}`));
